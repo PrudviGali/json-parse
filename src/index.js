@@ -34,6 +34,7 @@ var parseFile = function(file) {
     }
     json["changed"] = true;
     convertBacktoOriginalState(JSON.stringify(json), file, newPathsContainer);
+    return json;
 };
 
 function escapeRegExp(str) {

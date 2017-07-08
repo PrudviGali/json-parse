@@ -13,6 +13,9 @@
   "engines": {
     "node": ">=4.2.4"
   },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
   "dependencies": {
     "js-beautify": "*"
   },
@@ -21,5 +24,9 @@
   "bugs": {
     "url": "https://github.com/PrudviGali/json-parse/issues"
   },
-  "homepage": "https://github.com/PrudviGali/json-parse#readme"
+  "homepage": "https://github.com/PrudviGali/json-parse#readme",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
 }
