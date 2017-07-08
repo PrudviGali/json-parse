@@ -1,5 +1,5 @@
 {
-  "name": "json-parse",
+  "name": "gali-json-parse",
   "version": "0.0.1",
   "description": "JSON parser for parsing invalid JSON into valid JSON file.",
   "main": "index.js",
