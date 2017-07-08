@@ -1,0 +1,25 @@
+{
+  "name": "json-parse",
+  "version": "0.0.1",
+  "description": "JSON parser for parsing invalid JSON into valid JSON file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrudviGali/json-parse.git"
+  },
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "dependencies": {
+    "js-beautify": "*"
+  },
+  "author": "“Prudvi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrudviGali/json-parse/issues"
+  },
+  "homepage": "https://github.com/PrudviGali/json-parse#readme"
+}

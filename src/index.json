@@ -1,0 +1,15 @@
+{
+  "id": "3ca62d3d-5dfd-4452-9605-111ba8239383",
+  "one": ${image('url')},
+  "two": ${image('url')},
+  "three": ${image('url')},
+  "four": ${image('url')},
+  "five": [{
+    "type": "relation",
+    "id": ${idOf('url')}
+  }, {
+    "type": "relation",
+    "id": ${idOf('url')}
+  }],
+  "changed": false
+}
